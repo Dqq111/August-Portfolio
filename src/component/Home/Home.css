@@ -1,0 +1,63 @@
+#home {
+  height: 100%;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 5rem auto;
+  overflow: hidden;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hello {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.introName {
+  color: orange;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* .introPara {
+  font-size: medium;
+  font-weight: 300;
+} */
+
+/* .languageIcon {
+  object-fit: cover;
+  height: 2rem;
+  margin: 0.5rem 0.5rem;
+} */
+
+.heading-link {
+  text-decoration: none;
+  color: orange;
+  border: 1px solid orange;
+  padding: 0.5rem 2rem;
+  font-size: 1.25rem;
+  /* scroll-behavior: smooth;  
+  doesnt work. */
+}
+
+.heading-link:hover {
+  font-size: 1.5rem;
+}
+
+.arrow {
+  object-fit: cover;
+  height: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 840px) {
+  #home {
+    font-size: 10vw;
+  }
+}

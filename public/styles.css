@@ -1,0 +1,27 @@
+:root {
+  --color-bg30-default: rgb(30, 30, 30);
+  --color-bg40-default: rgb(40, 40, 40);
+  --color-bg50-default: rgb(50, 50, 50);
+  --text-white: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  offset: -100;
+}
+
+body {
+  background: var(--color-bg30-default);
+  color: var(--text-white);
+  overflow: hidden;
+  overflow-y: scroll;
+}
