@@ -9,7 +9,7 @@ export default function ProjectsContextProvider({ children }) {
     {
       hrefLive: "https://hopefullyhelp.netlify.app/",
       hrefGithub: "https://github.com/Dqq111/Experience",
-      imgSrc: "/images/Experience.png",
+      imgSrc: "/images/project4.png",
       imgAlt: "Website Project",
       projectTitle1: "My Skillset",
       projectTitle2: "Website Page",
