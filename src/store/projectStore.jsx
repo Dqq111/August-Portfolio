@@ -7,6 +7,16 @@ export const ProjectsContext = createContext({
 export default function ProjectsContextProvider({ children }) {
   const myProjects = [
     {
+      hrefLive: "https://hopefullyhelp.netlify.app/",
+      hrefGithub: "https://github.com/Dqq111/Experience",
+      imgSrc: "/images/Experience.png",
+      imgAlt: "Website Project",
+      projectTitle1: "My Skillset",
+      projectTitle2: "Website Page",
+      projectDesc:
+        "This website highlights my experience and skills, gained through both professional work and self-study, to showcase my current abilities. It is not complete yet. I am currently designing the layout.",
+    },
+    {
       hrefLive: "https://stressreducer.netlify.app/",
       hrefGithub: "https://github.com/Dqq111/JS-Map-Project",
       imgSrc: "/images/project1.png",
